@@ -5,12 +5,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Add Student</h1>
+            <h1>Edit Student</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Add Student</li>
+              <li class="breadcrumb-item active">Edit Student</li>
             </ol>
           </div>
         </div>
@@ -29,39 +29,40 @@
               </div>
               <div class="card-body">
                 <form>
+                @csrf
                   <div class="row">
                     <div class="col-md-2 border-right">
                       <div class="mb-3">
-                        <label for="yearAccepted" class="form-label"
+                        <label for="" class="form-label"
                           >Student Number</label
                         >
                         <input
                           type="number"
                           class="form-control"
-                          id="yearAccepted"
-                          name="yearAccepted"
+                          id="studentNumber"
+                          name=""
                         />
                       </div>
                       <div class="mb-3">
-                        <label for="yearAccepted" class="form-label"
+                        <label for="" class="form-label"
                           >Year Accepted:</label
                         >
                         <input
                           type="number"
                           class="form-control"
-                          id="yearAccepted"
-                          name="yearAccepted"
+                          id="dateAccepted"
+                          name="DA"
                         />
                       </div>
                       <div class="mb-3">
-                        <label for="yearGraduated" class="form-label"
+                        <label for="" class="form-label"
                           >Year Graduated:</label
                         >
                         <input
                           type="number"
                           class="form-control"
                           id="yearGraduated"
-                          name="yearGraduated"
+                          name="DG"
                         />
                       </div>
                       <div class="mb-3">
@@ -76,56 +77,56 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="firstName" class="form-label"
+                            <label for="" class="form-label"
                               >First Name:</label
                             >
                             <input
                               type="text"
                               class="form-control"
                               id="firstName"
-                              name="firstName"
+                              name="fname"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="middleName" class="form-label"
+                            <label for="" class="form-label"
                               >Middle Name:</label
                             >
                             <input
                               type="text"
                               class="form-control"
                               id="middleName"
-                              name="middleName"
+                              name="mname"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="lastName" class="form-label"
+                            <label for="" class="form-label"
                               >Last Name:</label
                             >
                             <input
                               type="text"
                               class="form-control"
                               id="lastName"
-                              name="lastName"
+                              name="lname"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
                             <label class="form-label">Suffix</label>
-                            <select class="form-control">
-                              <option value="">Select Suffix</option>
+                            <select name="suffix" class="form-control">
+                              <option value=""disabled selected>Select Suffix</option>
                               <option value="">N/A</option>
-                              <option value="">Jr.</option>
-                              <option value="">Sr.</option>
-                              <option value="">I</option>
-                              <option value="">II</option>
-                              <option value="">III</option>
-                              <option value="">IV</option>
-                              <option value="">V</option>
+                              <option value="Jr.">Jr.</option>
+                              <option value="Sr.">Sr.</option>
+                              <option value="I">I</option>
+                              <option value="II">II</option>
+                              <option value="III">III</option>
+                              <option value="IV">IV</option>
+                              <option value="V">V</option>
                             </select>
                           </div>
                         </div>
@@ -136,54 +137,48 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="firstName" class="form-label"
+                            <label for="" class="form-label"
                               >Birthdate</label
                             >
                             <input
                               type="date"
                               class="form-control"
-                              id="firstName"
-                              name="firstName"
+                              id="birthDate"
+                              name="bdate"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="middleName" class="form-label"
+                            <label for="" class="form-label"
                               >Birthplace</label
                             >
                             <input
                               type="text"
                               class="form-control"
-                              id="middleName"
-                              name="middleName"
+                              id="birthPlace"
+                              name="bplace"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="lastName" class="form-label">Age</label>
+                            <label for="" class="form-label">Age</label>
                             <input
                               type="number"
                               class="form-control"
-                              id="lastName"
-                              name="lastName"
+                              id="age"
+                              name="age"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
                             <label class="form-label">Gender</label>
-                            <select class="form-control">
-                              <option value="">Select Gender</option>
-                              <option value="">N/A</option>
-                              <option value="">Jr.</option>
-                              <option value="">Sr.</option>
-                              <option value="">I</option>
-                              <option value="">II</option>
-                              <option value="">III</option>
-                              <option value="">IV</option>
-                              <option value="">V</option>
+                            <select name="gender" class="form-control">
+                              <option value=""disabled selected>Select Gender</option>
+                              <option value="Male">Male</option>
+                              <option value="Female">Female</option>
                             </select>
                           </div>
                         </div>
@@ -194,40 +189,39 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="firstName" class="form-label"
+                            <label for="" class="form-label"
                               >Nationality</label
                             >
                             <input
                               type="text"
                               class="form-control"
-                              id="firstName"
-                              name="firstName"
+                              id="nationality"
+                              name="nationality"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="middleName" class="form-label"
-                              >Status</label
-                            >
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="middleName"
-                              name="middleName"
-                            />
+                          <label class="form-label">Gender</label>
+                            <select name="Mstatus" class="form-control">
+                            <option value=""disabled selected>Select Status</option>
+                            <option value="single">Single</option>
+                            <option value="married">Married</option>
+                            <option value="divorced">Divorced</option>
+                            <option value="widowed">Widowed</option>
+                            </select>
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="lastName" class="form-label"
+                            <label for="" class="form-label"
                               >Medical Condition</label
                             >
                             <input
                               type="text"
                               class="form-control"
-                              id="lastName"
-                              name="lastName"
+                              id="medicalCondition"
+                              name="medcom"
                             />
                           </div>
                         </div>
@@ -238,40 +232,40 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="firstName" class="form-label"
+                            <label for="" class="form-label"
                               >House No.</label
                             >
                             <input
                               type="text"
                               class="form-control"
-                              id="firstName"
-                              name="firstName"
+                              id="houseNumber"
+                              name="house_no"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="middleName" class="form-label"
+                            <label for="" class="form-label"
                               >Street</label
                             >
                             <input
                               type="text"
                               class="form-control"
-                              id="middleName"
-                              name="middleName"
+                              id="street"
+                              name="street"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="lastName" class="form-label"
+                            <label for="" class="form-label"
                               >Barangay</label
                             >
                             <input
                               type="text"
                               class="form-control"
-                              id="lastName"
-                              name="lastName"
+                              id="barangay"
+                              name="barangay"
                             />
                           </div>
                         </div>
@@ -282,40 +276,40 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="firstName" class="form-label"
+                            <label for="" class="form-label"
                               >City</label
                             >
                             <input
                               type="text"
                               class="form-control"
-                              id="firstName"
-                              name="firstName"
+                              id="city"
+                              name="city"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="middleName" class="form-label"
+                            <label for="" class="form-label"
                               >Province</label
                             >
                             <input
                               type="text"
                               class="form-control"
-                              id="middleName"
-                              name="middleName"
+                              id="province"
+                              name="province"
                             />
                           </div>
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="lastName" class="form-label"
+                            <label for="" class="form-label"
                               >Zip Code</label
                             >
                             <input
                               type="text"
                               class="form-control"
-                              id="lastName"
-                              name="lastName"
+                              id="Zip_Code"
+                              name="Zip_Code"
                             />
                           </div>
                         </div>
@@ -327,7 +321,7 @@
                   <div class="row justify-content-end">
                     <div class="col-mt-3">
                       <button type="submit" class="mt-3 btn btn-primary">
-                        Update
+                        Add
                       </button>
                       <button type="reset" class="mt-3 btn btn-danger">
                         Reset
