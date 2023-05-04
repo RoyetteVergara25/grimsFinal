@@ -21,7 +21,6 @@ Route::get('/dashboard',function(){
     return view('dashboard');
 });
 
-
 Route::get('/studentView',function(){
     return view('studentView');
 });

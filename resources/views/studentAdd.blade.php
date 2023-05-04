@@ -14,258 +14,334 @@
             </ol>
           </div>
         </div>
-      </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.container-fluid -->
     </section>
 
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12">
-
-            <!-- Profile Image -->
-           <div class="row">
-            <div class="col-xl-12 col-xxl-12 col-sm-12">
-              <div class="card">
-                <div class="card-header">
-                  <h5 class="card-title">Basic Info</h5>
-                </div>
-                <div class="card-body">
-                  <form action="#" method="post">
-                    <div class="row">
-                      <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">First Name</label>
-                          <input type="text" class="form-control" />
-                        </div>
-                        <!-- column 9 content -->
+          <div class="col-md">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Information</h3>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="row">
+                    <div class="col-md-2 border-right">
+                      <div class="mb-3">
+                        <label for="yearAccepted" class="form-label"
+                          >Student Number</label
+                        >
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="yearAccepted"
+                          name="yearAccepted"
+                        />
                       </div>
-                      <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Middle Name</label>
-                          <input type="text" class="form-control" />
-                        </div>
-                        <!-- column 10 content -->
+                      <div class="mb-3">
+                        <label for="yearAccepted" class="form-label"
+                          >Year Accepted:</label
+                        >
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="yearAccepted"
+                          name="yearAccepted"
+                        />
                       </div>
-                      <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Last Name</label>
-                          <input type="text" class="form-control" />
-                        </div>
-                        <!-- column 11 content -->
+                      <div class="mb-3">
+                        <label for="yearGraduated" class="form-label"
+                          >Year Graduated:</label
+                        >
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="yearGraduated"
+                          name="yearGraduated"
+                        />
                       </div>
-                      <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Suffix</label>
-                          <select class="form-control">
-                            <option value="">Select Suffix</option>
-                            <option value="">N/A</option>
-                            <option value="">Jr.</option>
-                            <option value="">Sr.</option>
-                            <option value="">I</option>
-                            <option value="">II</option>
-                            <option value="">III</option>
-                            <option value="">IV</option>
-                            <option value="">V</option>
-                          </select>
-                        </div>
-                        <!-- column 12 content -->
+                      <div class="mb-3">
+                        <label for="formFile" class="form-label"
+                          >Profile Picture</label
+                        >
+                        <input class="form-control" type="file" id="formFile" />
                       </div>
                     </div>
+                    <!--Start of 1st Column-->
+                    <div class="col">
+                      <div class="row">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="firstName" class="form-label"
+                              >First Name:</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="firstName"
+                              name="firstName"
+                            />
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="middleName" class="form-label"
+                              >Middle Name:</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="middleName"
+                              name="middleName"
+                            />
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="lastName" class="form-label"
+                              >Last Name:</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="lastName"
+                              name="lastName"
+                            />
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="mb-3">
+                            <label class="form-label">Suffix</label>
+                            <select class="form-control">
+                              <option value="">Select Suffix</option>
+                              <option value="">N/A</option>
+                              <option value="">Jr.</option>
+                              <option value="">Sr.</option>
+                              <option value="">I</option>
+                              <option value="">II</option>
+                              <option value="">III</option>
+                              <option value="">IV</option>
+                              <option value="">V</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <!--End of 1st Column-->
 
-                    <div class="row">
-                      <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Birthdate</label>
-                          <input type="date" class="form-control" />
+                      <!--Start of 2nd Column-->
+                      <div class="row">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="firstName" class="form-label"
+                              >Birthdate</label
+                            >
+                            <input
+                              type="date"
+                              class="form-control"
+                              id="firstName"
+                              name="firstName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 9 content -->
-                      </div>
-                      <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Birthplace</label>
-                          <input type="text" class="form-control" />
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="middleName" class="form-label"
+                              >Birthplace</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="middleName"
+                              name="middleName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 10 content -->
-                      </div>
-                      <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Age</label>
-                          <input type="number" class="form-control" />
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="lastName" class="form-label">Age</label>
+                            <input
+                              type="number"
+                              class="form-control"
+                              id="lastName"
+                              name="lastName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 11 content -->
-                      </div>
-                      <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Gender</label>
-                          <select class="form-control">
-                            <option value="">Select Gender</option>
-                            <option value="">Male</option>
-                            <option value="">Female</option>
-                            <option value="">Prefer not to say</option>
-                          </select>
+                        <div class="col">
+                          <div class="mb-3">
+                            <label class="form-label">Gender</label>
+                            <select class="form-control">
+                              <option value="">Select Gender</option>
+                              <option value="">N/A</option>
+                              <option value="">Jr.</option>
+                              <option value="">Sr.</option>
+                              <option value="">I</option>
+                              <option value="">II</option>
+                              <option value="">III</option>
+                              <option value="">IV</option>
+                              <option value="">V</option>
+                            </select>
+                          </div>
                         </div>
-                        <!-- column 12 content -->
                       </div>
-                    </div>
+                      <!--End of 2nd Column-->
 
-                    <div class="row">
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">House No.</label>
-                          <input type="text" class="form-control" />
+                      <!--Start of 3rd Column-->
+                      <div class="row">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="firstName" class="form-label"
+                              >Nationality</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="firstName"
+                              name="firstName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 11 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Street</label>
-                          <input type="text" class="form-control" />
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="middleName" class="form-label"
+                              >Status</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="middleName"
+                              name="middleName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 9 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Barangay</label>
-                          <input type="text" class="form-control" />
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="lastName" class="form-label"
+                              >Medical Condition</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="lastName"
+                              name="lastName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 9 content -->
                       </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">City</label>
-                          <input type="text" class="form-control" />
+                      <!--End of 3rd Column-->
+                      <br />
+                      <!--Start of 4th Column-->
+                      <div class="row">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="firstName" class="form-label"
+                              >House No.</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="firstName"
+                              name="firstName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 11 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Province</label>
-                          <input type="text" class="form-control" />
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="middleName" class="form-label"
+                              >Street</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="middleName"
+                              name="middleName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 9 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Zip Code</label>
-                          <input type="text" class="form-control" />
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="lastName" class="form-label"
+                              >Barangay</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="lastName"
+                              name="lastName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 9 content -->
                       </div>
-                    </div>
+                      <!--End of 4th Column-->
 
-                    <div class="row">
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Nationality</label>
-                          <input type="text" class="form-control" />
+                      <!--Start of 5th Column-->
+                      <div class="row">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="firstName" class="form-label"
+                              >City</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="firstName"
+                              name="firstName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 9 content -->
-                      </div>
-
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Medical Condition</label>
-                          <input type="text" class="form-control" />
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="middleName" class="form-label"
+                              >Province</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="middleName"
+                              name="middleName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 11 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Status</label>
-                          <select class="form-control">
-                            <option value="">Select Status</option>
-                            <option value="single">Single</option>
-                            <option value="married">Married</option>
-                            <option value="divorced">Divorced</option>
-                            <option value="widowed">Widowed</option>
-                          </select>
+                        <div class="col">
+                          <div class="mb-3">
+                            <label for="lastName" class="form-label"
+                              >Zip Code</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="lastName"
+                              name="lastName"
+                            />
+                          </div>
                         </div>
-                        <!-- column 12 content -->
                       </div>
+                      <!--End of 5th Column-->
                     </div>
-
-                    <div class="row">
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Student ID</label>
-                          <input type="number" class="form-control" />
-                        </div>
-                        <!-- column 11 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Year Accepted</label>
-                          <input type="text" class="form-control" />
-                        </div>
-                        <!-- column 9 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                          <label class="form-label">Year Graduated</label>
-                          <input type="text" class="form-control" />
-                        </div>
-                        <!-- column 9 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <div class="mb-3">
-                          <label for="formFile" class="form-label"
-                            >Default file input example</label
-                          >
-                          <input
-                            class="form-control"
-                            type="file"
-                            id="formFile"
-                          />
-                        </div>
-                        <!-- column 10 content -->
-                      </div>
+                  </div>
+                  <!--End of Row-->
+                  <div class="row justify-content-end">
+                    <div class="col-mt-3">
+                      <button type="submit" class="mt-3 btn btn-primary">
+                        Add
+                      </button>
+                      <button type="reset" class="mt-3 btn btn-danger">
+                        Reset
+                      </button>
                     </div>
-
-                    <div class="row">
-                      <div class="col-md-4 col-sm-6">
-                        <!-- column 11 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <!-- column 9 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <!-- column 10 content -->
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-3 col-sm-6">
-                        <button type="submit" class="btn btn-primary">
-                          Add
-                        </button>
-                        <button type="reset" class="btn btn-danger">
-                          Reset
-                        </button>
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <!-- column 13 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <!-- column 14 content -->
-                      </div>
-                      <div class="col-md-4 col-sm-6">
-                        <!-- column 15 content -->
-                      </div>
-                    </div>
-                  </form>
-                </div>
+                  </div>
+                </form>
               </div>
             </div>
-            <!-- /.card -->
-          </div>
-          <!-- /.col -->
           </div>
           <!-- /.col -->
         </div>
         <!-- /.row -->
-      </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.container-fluid -->
     </section>
 @endsection

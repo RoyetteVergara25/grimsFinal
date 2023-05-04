@@ -14,7 +14,8 @@
             </ol>
           </div>
         </div>
-      </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.container-fluid -->
     </section>
 
     <!-- Main content -->
@@ -30,37 +31,34 @@
               <div class="card-body">
                 <table id="example2" class="table table-bordered table-hover">
                   <thead>
-                  <tr>
-                    <th>Student ID</th>
-                    <th>Name</th>
-                    <th>Contact</th>
-                    <th>Action</th>
-                  </tr>
+                    <tr>
+                      <th>Student ID</th>
+                      <th>Name</th>
+                      <th>Contact</th>
+                      <th>Action</th>
+                    </tr>
                   </thead>
                   <tbody>
-                  <tr>
-                    <td>00001</td>
-                    <td>James Sevilla Garlit
-                    </td>
-                    <td>0909090909</td>
-                    <td class="project-actions text-right">
-                    <a class="btn btn-primary btn-sm" href="#">
-                              <i class="fas fa-folder">
-                              </i>
-                              View
-                          </a>
-                          <a class="btn btn-info btn-sm" href="#">
-                              <i class="fas fa-pencil-alt">
-                              </i>
-                              Edit
-                          </a>
-                          <a class="btn btn-danger btn-sm" href="#">
-                              <i class="fas fa-trash">
-                              </i>
-                              Delete
-                          </a>
-                    </td>
-                  </tr>
+                    <tr>
+                      <td>00001</td>
+                      <td>James Sevilla Garlit</td>
+                      <td>0909090909</td>
+                      <td class="project-actions text-right">
+                        <a class="btn btn-primary btn-sm" href="#">
+                          <i class="fas fa-folder"> </i>
+                          View
+                        </a>
+                        <a class="btn btn-info btn-sm" href="#">
+                          <i class="fas fa-pencil-alt"> </i>
+                          Edit
+                        </a>
+                        <a class="btn btn-danger btn-sm" href="#">
+                          <i class="fas fa-trash"> </i>
+                          Delete
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
               <!-- /.card-body -->

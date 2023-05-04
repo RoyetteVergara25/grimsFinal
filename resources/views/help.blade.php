@@ -18,7 +18,7 @@
     </section>
 
     <!-- Main content -->
-    <section class="content">
+        <section class="content">
         <div class="row">
             <div class="col-12" id="accordion">
                 <div class="card card-primary card-outline">
