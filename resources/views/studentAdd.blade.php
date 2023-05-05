@@ -315,15 +315,16 @@
                         </div>
                       </div>
                       <!--End of 5th Column-->
+                      
                     </div>
                   </div>
                   <!--End of Row-->
                   <div class="row justify-content-end">
                     <div class="col-mt-3">
-                      <button type="submit" class="mt-3 btn btn-primary">
+                      <button type="submit" class="mt-3 mb-3 btn btn-primary">
                         Add
                       </button>
-                      <button type="reset" class="mt-3 btn btn-danger">
+                      <button type="reset" class="mt-3 mb-3 btn btn-danger">
                         Reset
                       </button>
                     </div>
