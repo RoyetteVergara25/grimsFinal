@@ -272,5 +272,23 @@
     })
   })
 </script>
+<script>
+$(document).ready(function() {
+  // Add document button click event
+  $('#addDocumentButton').click(function() {
+    var documentRow = $('.document-row').first().clone(); // Clone the first document row
+    documentRow.find('.document-select').val(''); // Reset the file dropdown value
+    documentRow.find('.tag-select').val(''); // Reset the tag dropdown value
+    $('#documentContainer').append(documentRow); // Append the cloned row to the document container
+  });
+
+  // Delete document button click event
+  $('#documentContainer').on('click', '.delete-button', function() {
+    if ($('.document-row').length > 1) {
+      $(this).closest('.document-row').remove(); // Remove the closest document row
+    }
+  });
+});
+</script>
 </body>
 </html>

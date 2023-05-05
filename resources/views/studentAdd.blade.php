@@ -29,13 +29,11 @@
               </div>
               <div class="card-body">
                 <form>
-                @csrf
+                  @csrf
                   <div class="row">
                     <div class="col-md-2 border-right">
                       <div class="mb-3">
-                        <label for="" class="form-label"
-                          >Student Number</label
-                        >
+                        <label for="" class="form-label">Student Number</label>
                         <input
                           type="number"
                           class="form-control"
@@ -44,9 +42,7 @@
                         />
                       </div>
                       <div class="mb-3">
-                        <label for="" class="form-label"
-                          >Year Accepted:</label
-                        >
+                        <label for="" class="form-label">Year Accepted:</label>
                         <input
                           type="number"
                           class="form-control"
@@ -55,9 +51,7 @@
                         />
                       </div>
                       <div class="mb-3">
-                        <label for="" class="form-label"
-                          >Year Graduated:</label
-                        >
+                        <label for="" class="form-label">Year Graduated:</label>
                         <input
                           type="number"
                           class="form-control"
@@ -77,9 +71,7 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >First Name:</label
-                            >
+                            <label for="" class="form-label">First Name:</label>
                             <input
                               type="text"
                               class="form-control"
@@ -103,9 +95,7 @@
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >Last Name:</label
-                            >
+                            <label for="" class="form-label">Last Name:</label>
                             <input
                               type="text"
                               class="form-control"
@@ -118,7 +108,9 @@
                           <div class="mb-3">
                             <label class="form-label">Suffix</label>
                             <select name="suffix" class="form-control">
-                              <option value=""disabled selected>Select Suffix</option>
+                              <option value="" disabled selected>
+                                Select Suffix
+                              </option>
                               <option value="">N/A</option>
                               <option value="Jr.">Jr.</option>
                               <option value="Sr.">Sr.</option>
@@ -137,9 +129,7 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >Birthdate</label
-                            >
+                            <label for="" class="form-label">Birthdate</label>
                             <input
                               type="date"
                               class="form-control"
@@ -150,9 +140,7 @@
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >Birthplace</label
-                            >
+                            <label for="" class="form-label">Birthplace</label>
                             <input
                               type="text"
                               class="form-control"
@@ -176,7 +164,9 @@
                           <div class="mb-3">
                             <label class="form-label">Gender</label>
                             <select name="gender" class="form-control">
-                              <option value=""disabled selected>Select Gender</option>
+                              <option value="" disabled selected>
+                                Select Gender
+                              </option>
                               <option value="Male">Male</option>
                               <option value="Female">Female</option>
                             </select>
@@ -189,9 +179,7 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >Nationality</label
-                            >
+                            <label for="" class="form-label">Nationality</label>
                             <input
                               type="text"
                               class="form-control"
@@ -202,13 +190,15 @@
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                          <label class="form-label">Gender</label>
+                            <label class="form-label">Gender</label>
                             <select name="Mstatus" class="form-control">
-                            <option value=""disabled selected>Select Status</option>
-                            <option value="single">Single</option>
-                            <option value="married">Married</option>
-                            <option value="divorced">Divorced</option>
-                            <option value="widowed">Widowed</option>
+                              <option value="" disabled selected>
+                                Select Status
+                              </option>
+                              <option value="single">Single</option>
+                              <option value="married">Married</option>
+                              <option value="divorced">Divorced</option>
+                              <option value="widowed">Widowed</option>
                             </select>
                           </div>
                         </div>
@@ -227,14 +217,16 @@
                         </div>
                       </div>
                       <!--End of 3rd Column-->
-                      <br />
+                      <hr />
+                      <div class="text-center">
+                        <h4><strong>Address</strong></h4>
+                      </div>
+                      <hr />
                       <!--Start of 4th Column-->
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >House No.</label
-                            >
+                            <label for="" class="form-label">House No.</label>
                             <input
                               type="text"
                               class="form-control"
@@ -245,9 +237,7 @@
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >Street</label
-                            >
+                            <label for="" class="form-label">Street</label>
                             <input
                               type="text"
                               class="form-control"
@@ -258,9 +248,7 @@
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >Barangay</label
-                            >
+                            <label for="" class="form-label">Barangay</label>
                             <input
                               type="text"
                               class="form-control"
@@ -276,9 +264,7 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >City</label
-                            >
+                            <label for="" class="form-label">City</label>
                             <input
                               type="text"
                               class="form-control"
@@ -289,9 +275,7 @@
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >Province</label
-                            >
+                            <label for="" class="form-label">Province</label>
                             <input
                               type="text"
                               class="form-control"
@@ -302,9 +286,7 @@
                         </div>
                         <div class="col">
                           <div class="mb-3">
-                            <label for="" class="form-label"
-                              >Zip Code</label
-                            >
+                            <label for="" class="form-label">Zip Code</label>
                             <input
                               type="text"
                               class="form-control"
@@ -315,7 +297,70 @@
                         </div>
                       </div>
                       <!--End of 5th Column-->
-                      
+                      <hr />
+                      <div class="text-center">
+                        <h4><strong>Document</strong></h4>
+                      </div>
+                      <hr />
+                      <form id="documentForm">
+                        <div id="documentContainer">
+                          <div class="form-row mb-3 document-row">
+                            <div class="col">
+                              <select
+                                class="form-control document-select"
+                                name="file[]"
+                              >
+                                <option value="" disabled selected>
+                                  Select File
+                                </option>
+                                <option
+                                  value="Assessment form form pyschologist"
+                                >
+                                  Assessment form form pyschologist
+                                </option>
+                                <option value="Birth Certificate">
+                                  Birth Certificate
+                                </option>
+                                <option value="Diploma">Diploma</option>
+                                <option value="Form 138">Form 138</option>
+                                <option value="Form 137">Form 137</option>
+                                <option value="PWD ID">PWD ID</option>
+                                <!-- Add more options as needed -->
+                              </select>
+                            </div>
+                            <div class="col">
+                              <select
+                                class="form-control tag-select"
+                                name="tag[]"
+                              >
+                                <option value="" disabled selected>
+                                  Select Tag
+                                </option>
+                                <option value="original">Original</option>
+                                <option value="photocopy">Photocopy</option>
+                              </select>
+                            </div>
+                            <div class="col-auto">
+                              <button
+                                type="button"
+                                class="btn btn-danger delete-button"
+                              >
+                                &times;
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <button
+                            type="button"
+                            class="btn btn-primary"
+                            id="addDocumentButton"
+                          >
+                            Add Document
+                          </button>
+                        </div>
+                      </form>
                     </div>
                   </div>
                   <!--End of Row-->
