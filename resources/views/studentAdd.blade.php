@@ -44,7 +44,7 @@
                       <div class="mb-3">
                         <label for="" class="form-label">Year Accepted:</label>
                         <input
-                          type="number"
+                          type="date"
                           class="form-control"
                           id="dateAccepted"
                           name="DA"
@@ -53,7 +53,7 @@
                       <div class="mb-3">
                         <label for="" class="form-label">Year Graduated:</label>
                         <input
-                          type="number"
+                          type="date"
                           class="form-control"
                           id="yearGraduated"
                           name="DG"
